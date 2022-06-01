@@ -13,6 +13,8 @@ setup:
 install:
 	python3 -m pip install --upgrade pip &&\
 		python3 -m pip install  --no-cache-dir -r requirements.txt
+	wget -O ./hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
+		chmod +x ./hadolint
 
 test:
 	# Additional, optional, tests could go here
@@ -20,7 +22,7 @@ test:
 	# python -m pytest --nbval notebook.ipynb
 	
 lint:
-	hadolint Dockerfile
+	./hadolint Dockerfile
 	pylint --disable=R,C,W1203,W1202 app.py
 
 
