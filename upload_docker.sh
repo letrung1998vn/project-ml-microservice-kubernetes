@@ -6,14 +6,14 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=letrung1998vn/DevOps_Microservices
+dockerpath=letrung1998vn/project-ml-microservice-kubernetes
  
 # Step 2:  
 # Authenticate & tag
-docker login -u letrung1998vn --p socnhi.com1234
-docker tag project $dockerpath
+docker login 
+docker image tag udacity $dockerpath:udacity
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
-docker push $dockerpath 
+docker image push $dockerpath:udacity
