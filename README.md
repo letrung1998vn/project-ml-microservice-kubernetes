@@ -1,6 +1,6 @@
 ### Operationalize a Machine Learning Microservice API
 
-[![CircleCI](https://circleci.com/gh/letrung1998vn/project-ml-microservice-kubernetes/tree/main.svg?style=svg&circle-token=64699f2d298b7cb653d98abc6a0cdd3ba3abfac9)](https://circleci.com/gh/letrung1998vn/project-ml-microservice-kubernetes/tree/main)
+[![CircleCI](https://circleci.com/gh/letrung1998vn/project-ml-microservice-kubernetes/tree/main.svg?style=svg&circle-token=64699f2d298b7cb653d98abc6a0cdd3ba3abfac9)](https://circleci.com/gh/letrung1998vn/project-ml-microservice-kubernetes)
 
 ### 1. Project Summary
 
