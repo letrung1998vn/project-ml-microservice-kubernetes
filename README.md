@@ -1,6 +1,7 @@
 Operationalize a Machine Learning Microservice API
 
-[![CircleCI](https://circleci.com/github/letrung1998vn/project-ml-microservice-kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/letrung1998vn/project-ml-microservice-kubernetes)
+[![CircleCI](https://circleci.com/gh/letrung1998vn/project-ml-microservice-kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/letrung1998vn/project-ml-microservice-kubernetes)
+
 1. Project Summary
 
 The target of this project is to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on.
